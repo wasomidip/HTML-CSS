@@ -1,0 +1,79 @@
+.parent{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 200px;
+
+}
+.list{
+    display: flex;
+    column-gap: 35px;
+    list-style: none;
+
+}
+.contact{
+    background-color: rgb(15, 193, 193);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 100px;
+}
+.logo{
+    margin-left: 50px;
+}
+/* second nav */
+.parent1{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+.list1{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+.contact1{
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 100px;
+}
+/* 3rd nav */
+.parent2{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 180px;
+}
+.list2{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+.contact2{
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 100px;
+}

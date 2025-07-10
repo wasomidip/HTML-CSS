@@ -1,0 +1,84 @@
+.head{
+    border: 2px solid black;
+}
+.logo{
+    text-align: center;
+    margin: 15px;
+    
+}
+
+header div{
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+.head nav{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: relative;
+    left: 1000px;
+}
+.ul li{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    margin: 15px;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+
+.second-div{
+    border: 2px solid red;
+    display: inline-block;
+    position: relative; 
+    margin-top: px;
+    padding: 0px;
+    display: flex;
+    
+}
+.text{
+    border: 2px solid gold;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    margin: 40px; 
+    height: 500px;
+    width: 670px;
+}
+
+h1, p{
+    
+    text-align: center;
+}
+.img{
+    border: 2px solid green;
+    margin-top:2px;
+    padding: 40px;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    left: px;
+
+}
+.about{
+    border: 2px solid black;
+    margin: 10px;
+}
+.about-image{
+    border: 2px solid green;
+    display: inline-block;
+    padding: 50px;
+    margin: 20px;
+    width: 400px;
+    /* display: flex; */
+}
+.about-text{
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 70px;
+    width: 650px;
+    margin-bottom: 7%;
+    /* display: flex; */
+}

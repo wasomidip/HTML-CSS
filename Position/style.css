@@ -1,0 +1,59 @@
+.parent{
+    border: 2px solid black;
+    padding: 50px;
+    /* position:relative ; */
+    margin: 10px;
+    height: 1000px;
+
+
+
+}
+
+.box1{
+    background-color: red;
+    border: 2px solid black;
+    height: 100px;
+    width: 500px;
+    /* margin-bottom: 2px; */
+
+    /* position: static,absolute,relative,fixed,sticky; */
+    /* left: px */
+    /* right:px */
+    /* top:px */
+    /* bottom: */
+
+    /* position: relative; #
+    left: 20px; */
+
+    /* position: absolute; 
+    left: 100px;
+    top: 100px;
+
+    position: fixed; */
+
+    /* position: sticky;
+    top: 100px; */
+    
+    /* position: absolute; */
+    z-index: 1;
+
+
+    
+
+
+}
+
+.box2{
+    background-color: green;
+
+    border: 2px solid red;
+    height: 100px;
+    width: 500px;
+
+    /* position: relative;
+    left: 50px; */
+
+    position: absolute;
+    z-index: 2;
+
+}

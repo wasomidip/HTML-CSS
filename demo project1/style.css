@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+body{
+    /* background-color: #fafafa; */
+    color: #333;
+
+}
+
+.parent{
+
+    background-image: url("https://cdn-icons-png.flaticon.com/128/183/183667.png");
+
+
+    /* border: 2px solid black; */
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: 900px -20px;
+    background-size: 550px;
+    
+
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    /* background-color: white; */
+    /* border-bottom: 1px solid #eee; */
+}
+.logo{
+    font-size:  20px;
+    font-weight: bold;
+}
+.nav-links,
+.user-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    /* background-color: white; */
+    border-bottom: #eee;
+}
+.hero-text h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.hero-image img{
+    width: 200px;
+    /* border-radius: 50%; */
+}
+
+.category-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px dolid #eee;
+
+}
+.category-nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.category-nav li{
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.category-nav .active{
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+.filter-search span{
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 40px;
+} 
+.product-card{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+
+}  
+.product-card:hover{
+    box-shadow: 0 2px 8px brown;
+}
+.product-name{
+    margin-top: 10px;
+    font-weight: 5000;
+}
+.price{
+    color: red;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #222;
+    color: white;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: wrap;
+    margin-bottom: 10px;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}

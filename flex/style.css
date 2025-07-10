@@ -1,0 +1,31 @@
+.parent{
+    border: 2px solid black;
+    display: flex;
+    height: 500px;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: start; center, end */
+    /* justify-content: space-evenly, space-around,space-between; */
+    /* justify-content: space-between; */
+/* #for vertical movement */
+    /* align-items: start, center,end; */
+    /* justify-content: :end; */
+    /* align-items: center; */
+
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+
+    /* align-content: start, end,space-around,space-between; */
+
+    row-gap: 55px;
+    column-gap: 55px;
+    gap: 55px;
+}
+
+.child{
+border: 2px solid red;
+height: 100px;
+width: 100px;
+}

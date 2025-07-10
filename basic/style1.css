@@ -1,0 +1,60 @@
+#box {
+    border: 5px solid black;
+    border-radius: 30px;
+    height: 800px;
+    width: 800px;
+    /* margin: auto; */
+    margin-top:100;
+    padding: 5px;
+
+
+    /* font */
+
+    font-size: 25px;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* font-family: 'Times New Roman', Times, serif; */
+
+    /* text-align: ;
+    text-decoration: ;
+    text-transform: ;
+    text-shadow: ; */
+
+    /* text-align: center,left,right,justify,start; */
+    /* text-align: justify; */
+
+    /* text-decoration:underline ;
+    text-decoration: line-through;
+    text-decoration: overline; */
+    /* text-decoration: dotted underline green 2px;
+    text-decoration: wavy line-through; */
+
+    /* line-height: 50px;
+    word-spacing: 10px;
+    letter-spacing: 5px; */
+
+    /* text-shadow: 5px 10px 2px green; */
+    /* text-transform: capitalize, lowercase, uppercase,; */
+    /* text-transform: uppercase;*/
+
+    overflow: auto;
+    /* overflow: hidden;
+    overflow: scroll; */
+
+    /* color: brown; */
+
+    background-color: lightblue;
+
+   
+    /* background-image: url('https://imgs.search.brave.com/uyfth1LbgIeNg6803NnfszWIHLE17eHhM9nO50QjS4w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jYXRz/LmNvbS93cC1jb250/ZW50L3RoZW1lcy9y/aWJvc29tZS9pbWcv/aG9tZS9jYXRzLWhv/bWUtbnVtYmVycy1m/b3JtLWNhdC5wbmc'); */
+    background-image: url('https://d2zp5xs5cp8zlg.cloudfront.net/image-79322-800.jpg');
+    background-repeat: no-repeat;
+    
+    /* background-size: 100px; */
+    /* background-position: top,left,right,center,bottom; */
+    background-position: center center;
+
+
+
+
+}

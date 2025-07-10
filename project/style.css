@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(72, 26, 26);
+    color: rgb(213, 225, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+.navbar{
+    background: rgb(141, 206, 141);
+    border-radius: 2px solid black;
+    height: 50px;
+    padding: 5px;
+    text-align: left;
+    /* align-items: center; */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.bar{
+    text-align: left;
+}
+
+.navbar .logo{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+
+.navbar ul {
+    text-align: left;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar a:hover{
+    color: red;
+}
+/* .top{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    background-color: rgb(15, 199, 199);
+} */
+.top-text{
+    display: inline-block;
+    padding: 5px;
+    height: 500px;
+    width: 500px;
+}
+
+.top-text h1{
+    font-size: 25px;
+}
+.top-text .subtitle{
+    margin: 5px;
+} 
+.my-image{
+    display: inline-block;
+    background-color: rgb(255, 0, 55);
+    height: 200px;
+    width: 2dvb;
+
+}
+
+.btn{
+    /* display: inline-block; */
+    padding: 5px;
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: blue;
+}
+.about{
+    display: inline-block;
+    back
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    
+}
+.about-image img{
+
+}
+.about-text{
+    
+}
+.skills{
+    margin: 5px;
+    gap: 100px;
+    display: ;
+}
+.skills span{
+    background-color: ;
+    padding: ;
+    border-radius: ;
+}
+.services{
+    padding: ;
+    text-align: center;
+}
+.services-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,);
+    gap: ;
+    margin-top: ;
+}
+.card{
+    background-color: ;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cta{
+    background: ;
+    text-align: center;
+    padding: 5px;
+}
+footer {
+    background: black;
+    text-align: center;
+    padding: 5px;
+}

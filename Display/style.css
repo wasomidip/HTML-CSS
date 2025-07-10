@@ -1,0 +1,21 @@
+.box1{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+
+    /* display: block, inline, inline-block, flex,grid;none */
+
+    display: inline-block;
+    /* visibility: hidden,visible; */
+    /* visibility: hidden;
+    visibility: visible; */
+    /* display: none; */
+} 
+
+
+.box2{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
